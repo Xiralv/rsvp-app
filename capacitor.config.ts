@@ -1,9 +1,11 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'sample-app',
+  appId: 'io.ionic.rsvp',
+  appName: 'rsvp-app',
   webDir: 'www'
 };
+
+
 
 export default config;

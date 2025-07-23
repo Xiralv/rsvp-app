@@ -1,0 +1,65 @@
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+
+.box {
+    border-color: #403E39;
+    border-width: thin;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+
+
+}
+
+.default-color {
+    --background: #f6f8fc;
+    color: black;
+    width: 100%;
+}
+
+.yes {
+    --background: #93e9be;
+    color: white;
+}
+
+
+.no {
+    --background: #c5000f;
+    color: white;
+
+}
+
+
+.card {
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+
+
+ion-card {
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ion-input {
+    --highlight-color-valid: #4d4d4d
+}

@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+</ion-header>
+
+<ion-content class="full-screen" [fullscreen]="true">
+
+
+  <swiper-container #swiper [pagination]="true" (swiperslidechange)="onSlideChange()" (swiperslidermove)="willChange()">
+    <swiper-slide *ngFor="let slide of slides">
+      <div class="slide-content" [ngStyle]="{'background-color': slide.color,width: '100%', height: '100vh'}">
+        <div class="text-center ">
+          <ion-label>
+            <h1>{{slide.title}}</h1>
+            <p>{{slide.description}}</p>
+            <ion-button *ngIf="isLastSlide" (click)="nextPage()">Click me</ion-button>
+          </ion-label>
+        </div>
+
+      </div>
+    </swiper-slide>
+  </swiper-container>
+
+
+
+
+  <!-- <ion-button expand="full" color="primary" (click)="finish()" *ngIf="isLastSlide">Get Started</ion-button> -->
+
+
+</ion-content>
