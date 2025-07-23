@@ -1,7 +1,0 @@
-{
-  "name": "rsvp-app",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
